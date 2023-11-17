@@ -22,3 +22,4 @@ int main() {
     cout << "Result: " << result << "\n";
     return 0;
 }
+
