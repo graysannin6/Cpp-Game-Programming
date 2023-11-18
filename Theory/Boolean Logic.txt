@@ -1,0 +1,33 @@
+Only two values : True and False;
+
+Operators:
+&& and
+|| or
+! inverse
+
+AND:
+A && B is true only if both A and B are true;
+Otherwise , any other combination is false
+
+OR:
+A || B is true if either A is true or B is true or A and B is true;
+A || B is false if and only if A is false ans B is false; 
+
+Associative Law:
+A || B is the same as B || A;
+A && B is the same as B && A;
+
+Distribute Law:
+A && (B || C) = A && B || A && C;
+
+And Law:
+A && False = false
+A && True = A;
+A && A = A;
+A && !A = false;
+
+OR Law:
+A || False = A;
+A || True = true;
+A || A = A;
+A || !A = true;
